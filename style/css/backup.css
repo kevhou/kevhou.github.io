@@ -16,7 +16,7 @@
   position: relative;
   overflow: hidden;
   text-align: center;
-  background: #292929 url(/images/pages/welcome/welcome.jpg) no-repeat center center fixed;
+  background: #292929 url(/style/images/pages/welcome/welcome.jpg) 50% 0 repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1889,7 +1889,7 @@ h1 {
   letter-spacing: 1px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 42.75px;
 }
 h3 {
   font-size: 33.25px;
@@ -7323,8 +7323,8 @@ a.badge:focus {
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
-    /*margin-left: -20px;*/
-    /*margin-right: -20px;*/
+    margin-left: -20px;
+    margin-right: -20px;
   }
   .container-fluid {
     padding: 0;
@@ -7590,13 +7590,13 @@ a.badge:focus {
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
-    position: fixed;
+    position: static;
   }
   .navbar-fixed-top {
-    /*margin-bottom: 27px;*/
+    margin-bottom: 27px;
   }
   .navbar-fixed-bottom {
-    /*margin-top: 27px;*/
+    margin-top: 27px;
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {

@@ -1,21 +1,79 @@
----
-layout: default
----
-<!--<div class="post">-->
+<!DOCTYPE html>
+<html>
 
-  <!--<header class="post-header">-->
-    <!--<h1 class="post-title">{{ page.title }}</h1>-->
-  <!--</header>-->
+  {% include head.html %}
 
-  <!--<article class="post-content">-->
-    <!--{{ content }}-->
-  <!--</article>-->
+  <body>
 
-<!--</div>-->
+    {% include header.html %}
 
-{% for post in site.posts %}
-    <div class="post">
-        <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p class="meta">Date: {{ post.date }}</p>
+    <!-- PAGE | WELCOME -->
+    <div class="pages white paralax page-welcome" id="page-welcome">
+        <div class="overlay"></div>
+        <!-- Centralized content -->
+        <div class="centralized">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12 center">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-{% endfor %}
+    <!-- END PAGE | Welcome -->
+
+    <!-- PLUGINS -->
+    <script src="/style/js/plugins/jquery.bxslider.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.centralized.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.fixedonlater.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.hashloader.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.mixitup.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.nav.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.parallax-1.1.3.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.responsivevideos.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.scrollTo.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.tweet.min.js" type="text/javascript"></script>
+    <script src="/style/js/plugins/jquery.tweetCarousel.min.js" type="text/javascript"></script>
+
+
+    <!-- INITIALIZE -->
+    <script>
+        $(document).ready(function() {
+            $(window).height();
+            var b = $(window).width(),
+                a = $("#navigation").outerHeight();
+            $(window).resize(function() {
+                b = $(window).width();
+                $(window).height()
+            });
+            $(".centralized").centralized({
+                delay: 0,
+                fadeSpeed: 0
+            });
+            $("#welcome-messages ul").bxSlider({
+                mode: "vertical",
+                auto: !0,
+                minSlides: 1,
+                responsive: !0,
+                touchEnabled: !0,
+                pager: !1,
+                controls: !1,
+                useCSS: !1,
+                pause: 1E4
+            });
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $("li#" + "{{ page.menu }}").addClass("active")
+        })
+    </script>
+
+
+    <!-- {% include footer.html %} -->
+
+  </body>
+
+</html>
