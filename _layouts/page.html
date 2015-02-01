@@ -4,7 +4,6 @@
   {% include head.html %}
 
   <body>
-    <img class="vegas-background background" src="/background/1.jpg">
     {% include header.html %}
 
     <!-- PAGE | WELCOME -->
@@ -72,12 +71,9 @@
     </script>
 
     <script>
-    $.vegas('slideshow', {
-      backgrounds:[
-        { src:'/background/1.jpg', fade:1000 }
-//        { src:'/background/2.jpg', fade:1000 }
-      ]
-    });
+        $.vegas({
+          src:'/background/1.jpg'
+        });
     </script>
 
     <script>

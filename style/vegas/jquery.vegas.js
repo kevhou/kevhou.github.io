@@ -9,21 +9,22 @@
  // ----------------------------------------------------------------------------
 
 (function($) {
-    var $background = $("<img />").addClass("vegas-background"), $overlay = $("<div />").addClass("vegas-overlay"), $loading = $("<div />").addClass("vegas-loading"), $current = $(), paused = null, backgrounds = [], step = 0, delay = 5e3, walk = function() {}, timer, methods = {
+    var $background = $("<img />").addClass("vegas-background background"), $current = $(), backgrounds = [], methods = {
         init: function(settings) {
             var options = {
                 src: getBackground(),
+                position: "fixed",
                 align: "center",
                 valign: "center",
-                fade: 0,
-                loading: true,
+                fade: 1000,
+                loading: false,
                 load: function() {},
                 complete: function() {}
             };
-            $.extend(options, $.vegas.defaults.background, settings);
-            if (options.loading) {
-                loading();
-            }
+//            $.extend(options, $.vegas.defaults.background, settings);
+//            if (options.loading) {
+//                loading();
+//            }
             var $new = $background.clone();
             $new.css({
                 position: "fixed",
@@ -33,9 +34,9 @@
                 if ($new == $current) {
                     return;
                 }
-                $(window).bind("load resize.vegas", function(e) {
-                    resize($new, options);
-                });
+//                $(window).bind("load resize.vegas", function(e) {
+//                    resize($new, options);
+//                });
                 if ($current.is("img")) {
                     $current.stop();
                     $new.hide().insertAfter($current).fadeIn(options.fade, function() {
