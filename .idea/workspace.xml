@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a580c44f-4481-4441-9645-468e91b42677" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -43,7 +40,7 @@
       <file leaf-file-name="page.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="103" selection-end="103" vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="1700">
+            <state line="76" column="46" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.456" vertical-offset="950" max-vertical-offset="1700">
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -776,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="103" selection-end="103" vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="1700">
+        <state line="76" column="46" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.456" vertical-offset="950" max-vertical-offset="1700">
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
