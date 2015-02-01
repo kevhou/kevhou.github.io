@@ -17,11 +17,11 @@
   /*overflow: hidden;*/
   text-align: center;
   /*background: #292929 url(/style/images/pages/welcome/welcome.jpg) no-repeat center center fixed;*/
-  background: #292929 url(/background/1.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /*background: #292929 url(/background/1.jpg) no-repeat center center fixed;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
   /* Social icons box */
 }
 .page-welcome .logo {
@@ -120,12 +120,12 @@
   height: 100%;
   /*position: relative;*/
   /*overflow: scroll;*/
-  text-align: center;
-  background: #292929 url(/background/1.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /*text-align: center;*/
+  /*background: #292929 url(/background/1.jpg) no-repeat center center fixed;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
 }
 .portfolio-items {
   /*

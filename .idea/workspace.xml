@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a580c44f-4481-4441-9645-468e91b42677" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/main.css" afterPath="$PROJECT_DIR$/style/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevhou.github.io.iws" />
@@ -27,13 +32,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="204" selection-end="204" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1513">
+            <state line="6" column="29" selection-start="89" selection-end="89" vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="1632">
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="2578" selection-end="2578" vertical-scroll-proportion="-22.461538" vertical-offset="300" max-vertical-offset="1037">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,18 +64,18 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="197" selection-end="224" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1445">
+            <state line="67" column="4" selection-start="2450" selection-end="2536" vertical-scroll-proportion="-13.153846" vertical-offset="797" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="399" column="2" selection-start="8883" selection-end="8883" vertical-scroll-proportion="8.889908" vertical-offset="0" max-vertical-offset="14297">
+            <state line="23" column="29" selection-start="287" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14297">
               <folding>
-                <element signature="e#18011#18156#1" expanded="true" />
+                <element signature="e#18055#18200#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,7 +100,6 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/foot.html" />
         <option value="$PROJECT_DIR$/_site/index.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/js/plugins/jquery.bxslider.min.js" />
         <option value="$PROJECT_DIR$/css/custom_bootstrap.css" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
@@ -94,11 +107,12 @@
         <option value="$PROJECT_DIR$/music/index.html" />
         <option value="$PROJECT_DIR$/art/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/about/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/style/css/main.css" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
-        <option value="$PROJECT_DIR$/style/css/main.css" />
       </list>
     </option>
   </component>
@@ -148,6 +162,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kevhou.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevhou.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kevhou.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,7 +247,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="css&#10;main.css&#10;control.png&#10;controls.p&#10;custom.css&#10;header&#10;head&#10;header.&#10;head.h&#10;head.ht&#10;custom&#10;_confi&#10;_config.&#10;setting" />
+    <property name="SearchEverywhereHistory" value="head.html&#10;head.h&#10;header&#10;css&#10;main.css&#10;control.png&#10;controls.p&#10;custom.css&#10;head&#10;header.&#10;head.ht&#10;custom&#10;_confi&#10;_config.&#10;setting" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../kevhoucom" />
   </component>
@@ -622,11 +650,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.49725777" vertical-offset="0" max-vertical-offset="547" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.02982456" vertical-offset="0" max-vertical-offset="570" />
@@ -674,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="759" selection-end="759" vertical-scroll-proportion="0.476" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/music/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="17" selection-start="34" selection-end="34" vertical-scroll-proportion="0.045333333" vertical-offset="0" max-vertical-offset="750">
@@ -710,30 +726,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="20" selection-start="2352" selection-end="2352" vertical-scroll-proportion="0.74626863" vertical-offset="215" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/images/pages/welcome/welcome.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="204" selection-end="204" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1513">
+        <state line="6" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="759" selection-end="759" vertical-scroll-proportion="0.476" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="29" selection-start="287" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14297">
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#18055#18200#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="197" selection-end="224" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1445">
+        <state line="52" column="0" selection-start="2578" selection-end="2578" vertical-scroll-proportion="-22.461538" vertical-offset="300" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
@@ -745,11 +768,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/css/main.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="399" column="2" selection-start="8883" selection-end="8883" vertical-scroll-proportion="8.889908" vertical-offset="0" max-vertical-offset="14297">
+        <state line="67" column="4" selection-start="2450" selection-end="2536" vertical-scroll-proportion="-13.153846" vertical-offset="797" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="89" selection-end="89" vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="1632">
           <folding>
-            <element signature="e#18011#18156#1" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

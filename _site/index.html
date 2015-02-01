@@ -35,6 +35,10 @@
     <script src="/style/js/bootstrap/html5shiv.js"></script>
     <![endif]-->
 
+    <!-- Vegas -->
+    <link rel="stylesheet" href="/style/vegas/jquery.vegas.css" type="text/css">
+    <script type="text/javascript" src="/style/vegas/jquery.vegas.js"></script>
+
     <style>
         h1, h2, h3, h4, h5, h6, p {
             margin: 0;
@@ -50,6 +54,7 @@
         .no_margin {
             margin: 0; !important
         }
+
     </style>
 </head>
 
@@ -186,6 +191,12 @@
                 useCSS: !1,
                 pause: 1E4
             });
+        });
+    </script>
+
+    <script>
+        $.vegas({
+          src:'/background/1.jpg'
         });
     </script>
 

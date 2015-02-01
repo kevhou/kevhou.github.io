@@ -35,6 +35,10 @@
     <script src="/style/js/bootstrap/html5shiv.js"></script>
     <![endif]-->
 
+    <!-- Vegas -->
+    <link rel="stylesheet" href="/style/vegas/jquery.vegas.css" type="text/css">
+    <script type="text/javascript" src="/style/vegas/jquery.vegas.js"></script>
+
     <style>
         h1, h2, h3, h4, h5, h6, p {
             margin: 0;
@@ -50,12 +54,12 @@
         .no_margin {
             margin: 0; !important
         }
+
     </style>
 </head>
 
 
   <body>
-
     
 <nav class="fixed-top fixed-visable" id="navigation">
 <div class="container">
@@ -97,8 +101,8 @@
 
     <!-- PAGE | WELCOME -->
     <div class="pages page-work" id="page-work">
-        <div class="overlay"></div>
-        <div class="container margin-default">
+        <!--<div class="overlay"></div>-->
+        <div class="container center margin-default">
             <div class="logo">
                 <div class="scrollNormal">
                     <a href="#">
@@ -123,6 +127,8 @@ I am Kevin Hou.<br />
         </div>
     </div>
     <!-- END PAGE | Welcome -->
+
+
 
     <!-- PLUGINS -->
     <script src="/style/js/plugins/jquery.bxslider.min.js" type="text/javascript"></script>
@@ -163,6 +169,12 @@ I am Kevin Hou.<br />
                 useCSS: !1,
                 pause: 1E4
             });
+        });
+    </script>
+
+    <script>
+        $.vegas({
+          src:'/background/1.jpg'
         });
     </script>
 
