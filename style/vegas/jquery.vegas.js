@@ -52,9 +52,9 @@
                 }
                 $current = $new;
                 resize($current, options);
-                if (options.loading) {
-                    loaded();
-                }
+//                if (options.loading) {
+//                    loaded();
+//                }
                 $("body").trigger("vegasload", [ $current.get(0), step - 1 ]);
                 options.load.apply($current.get(0), [ step - 1 ]);
                 if (step) {
@@ -237,12 +237,12 @@
             valign: "center"
         };
         $.extend(options, settings);
-        if ($img.height() === 0) {
-            $img.load(function() {
-                resize($(this), settings);
-            });
-            return;
-        }
+//        if ($img.height() === 0) {
+//            $img.load(function() {
+//                resize($(this), settings);
+//            });
+//            return;
+//        }
         var vp = getViewportSize(), ww = vp.width, wh = vp.height, iw = $img.width(), ih = $img.height(), rw = wh / ww, ri = ih / iw, newWidth, newHeight, newLeft, newTop, properties;
         if (rw > ri) {
             newWidth = wh / ri;
