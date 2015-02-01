@@ -45,10 +45,11 @@
             color: white;
         }
         .margin-default {
-            margin-top: 60px; !important
             margin-bottom: 60px; !important
+            margin-top: 60px; !important
         }
         .logo {
+            margin-top: 30px;
             margin-bottom: 30px;
         }
         .no_margin {
@@ -60,6 +61,7 @@
 
 
   <body>
+    <!--<img class="vegas-background" src="/background/1.jpg">-->
     
 <nav class="fixed-top fixed-visable" id="navigation">
 <div class="container">
@@ -121,7 +123,36 @@ I am a Music Producer. I love music and have created many hip-hop instrumentals.
 I am interested in UI/UX design, web, game and mobile app development.<br />
 <br />
 I am Kevin Hou.<br />
-</p>
+<br />
+I am a Programmer. Currently, pursuing a degree in Computer Science at the University of Waterloo.<br />
+<br />
+I am a Graphic Designer. Experience with creating logos, posters and websites. I love to design intuitive and simple UI. View my work on the Art page.<br />
+<br />
+I am a Music Producer. I love music and have created many hip-hop instrumentals. Listen to my music on the Music page.<br />
+<br />
+I am interested in UI/UX design, web, game and mobile app development.<br />
+<br />
+I am Kevin Hou.<br />
+<br />
+I am a Programmer. Currently, pursuing a degree in Computer Science at the University of Waterloo.<br />
+<br />
+I am a Graphic Designer. Experience with creating logos, posters and websites. I love to design intuitive and simple UI. View my work on the Art page.<br />
+<br />
+I am a Music Producer. I love music and have created many hip-hop instrumentals. Listen to my music on the Music page.<br />
+<br />
+I am interested in UI/UX design, web, game and mobile app development.<br />
+<br />
+I am Kevin Hou.<br />
+<br />
+I am a Programmer. Currently, pursuing a degree in Computer Science at the University of Waterloo.<br />
+<br />
+I am a Graphic Designer. Experience with creating logos, posters and websites. I love to design intuitive and simple UI. View my work on the Art page.<br />
+<br />
+I am a Music Producer. I love music and have created many hip-hop instrumentals. Listen to my music on the Music page.<br />
+<br />
+I am interested in UI/UX design, web, game and mobile app development.<br />
+<br />
+I am Kevin Hou.</p>
                 </div>
             </div>
         </div>
@@ -173,9 +204,12 @@ I am Kevin Hou.<br />
     </script>
 
     <script>
-        $.vegas({
-          src:'/background/1.jpg'
-        });
+    $.vegas('slideshow', {
+      backgrounds:[
+        { src:'/background/1.jpg', fade:1000 },
+        { src:'/background/2.jpg', fade:1000 }
+      ]
+    });
     </script>
 
     <script>
