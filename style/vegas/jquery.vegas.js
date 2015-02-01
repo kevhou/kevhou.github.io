@@ -16,12 +16,12 @@
                 position: "fixed",
                 align: "center",
                 valign: "center",
-                fade: 1000,
+                fade: 500,
                 loading: false,
                 load: function() {},
                 complete: function() {}
             };
-//            $.extend(options, $.vegas.defaults.background, settings);
+            $.extend(options, $.vegas.defaults.background, settings);
 //            if (options.loading) {
 //                loading();
 //            }

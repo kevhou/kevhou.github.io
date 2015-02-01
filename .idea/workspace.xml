@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a580c44f-4481-4441-9645-468e91b42677" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/vegas/jquery.vegas.css" afterPath="$PROJECT_DIR$/style/vegas/jquery.vegas.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/vegas/jquery.vegas.js" afterPath="$PROJECT_DIR$/style/vegas/jquery.vegas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kevhou.github.io.iws" />
@@ -42,7 +39,7 @@
       <file leaf-file-name="jquery.vegas.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/vegas/jquery.vegas.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="21" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.35648754" vertical-offset="391" max-vertical-offset="5525">
+            <state line="18" column="25" selection-start="844" selection-end="844" vertical-scroll-proportion="0.2450852" vertical-offset="119" max-vertical-offset="5525">
               <folding />
             </state>
           </provider>
@@ -784,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/vegas/jquery.vegas.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="21" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.35648754" vertical-offset="391" max-vertical-offset="5525">
+        <state line="18" column="25" selection-start="844" selection-end="844" vertical-scroll-proportion="0.2450852" vertical-offset="119" max-vertical-offset="5525">
           <folding />
         </state>
       </provider>
