@@ -1,16 +1,10 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Hou</title>
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" href="{{ "/style/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <link rel="stylesheet" href="/style/css/theme.css" />
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/style/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/style/images/ico/apple-touch-icon-114-precomposed.png">
@@ -31,24 +25,5 @@
     <script src="/style/js/bootstrap/html5shiv.js"></script>
     <![endif]-->
 
-    <style>
-        body {
-            background-color: black; !important
-        }
-        h1, h2, h3, h4, h5, h6, p {
-            margin: 0;
-            color: white;
-        }
-        .margin-default {
-            margin-bottom: 60px; !important
-            margin-top: 60px; !important
-        }
-        .logo {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        .no_margin {
-            margin: 0; !important
-        }
-    </style>
+    <link rel="stylesheet" href="/style/css/main.css" />
 </head>
