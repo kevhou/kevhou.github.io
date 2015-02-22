@@ -11,5 +11,5 @@ github_username:  kevhou
 
 # Build settings
 markdown: kramdown
-paginate: 1
-paginate_path: "/music/page:num"
+paginate: 2
+#paginate_path: "/music/page:num"

@@ -4,7 +4,7 @@ title: KH - Music
 menu: music
 ---
 
-{% for post in paginator.posts %}
+{% for post in site.posts limit: 3 %}
     <h3>{{ post.title }}</h3>
     <p>{{ post.description }}</p>
     <div class="videoWrapper">
@@ -12,35 +12,4 @@ menu: music
     </div>
 {% endfor %}
 
-{% if paginator.total_pages > 1 %}
-    <div class="pagination">
-        <ul>
-
-        {% if paginator.previous_page %}
-            {% if paginator.page == 2 %}
-                <li><a href="{{ '/music' | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
-            {% else %}
-                <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
-            {% endif %}
-        {% else %}
-            <li><span>&laquo;</span></li>
-        {% endif %}
-
-        {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-                <li><span>{{ page }}</span></li>
-            {% elsif page == 1 %}
-                <li><a href="{{ '/music' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-            {% else %}
-                <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-            {% endif %}
-        {% endfor %}
-
-        {% if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
-        {% else %}
-            <li><span>&raquo;</span></li>
-        {% endif %}
-        </ul>
-    </div>
-{% endif %}
+<div class="infinite-spinner"></div>
