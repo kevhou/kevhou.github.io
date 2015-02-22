@@ -7,8 +7,10 @@ menu: music
 {% for post in site.posts limit: 3 %}
     <h3>{{ post.title }}</h3>
     <p>{{ post.description }}</p>
-    <div class="videoWrapper">
-        <iframe src="{{ post.link }}?" frameborder="0" allowfullscreen></iframe>
+    <div class="post">
+        <div class="videoWrapper">
+            <iframe src="{{ post.link }}?" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
 {% endfor %}
 
