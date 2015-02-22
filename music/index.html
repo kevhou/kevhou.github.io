@@ -4,16 +4,20 @@ title: KH - Music
 menu: music
 ---
 
-<div class="posts">
-    {% for post in site.posts limit: 3 %}
-        <div class="post">
-            <h3>{{ post.title }}</h3>
-            <p>{{ post.description }}</p>
-            <div class="videoWrapper">
-                <iframe src="{{ post.link }}?" frameborder="0" allowfullscreen></iframe>
-            </div>
+<div class="row-fluid">
+    <div class="span8 offset2">
+        <div class="posts">
+            {% for post in site.categories.music %}
+                <div class="post">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.description }}</p>
+                    <div class="videoWrapper">
+                        <iframe src="{{ post.link }}?" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-    {% endfor %}
+    </div>
 </div>
 
-<div class="infinite-spinner"></div>
+<!--<div class="infinite-spinner"></div>-->

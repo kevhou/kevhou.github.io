@@ -6,8 +6,8 @@
 </description>
     <link>http://kevhou.com/</link>
     <atom:link href="http://kevhou.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Feb 2015 00:39:16 -0500</pubDate>
-    <lastBuildDate>Sun, 22 Feb 2015 00:39:16 -0500</lastBuildDate>
+    <pubDate>Sun, 22 Feb 2015 02:05:27 -0500</pubDate>
+    <lastBuildDate>Sun, 22 Feb 2015 02:05:27 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -15,9 +15,11 @@
         <description>
 </description>
         <pubDate>Mon, 13 Oct 2014 00:00:00 -0400</pubDate>
-        <link>http://kevhou.com/2014/10/13/royals.html</link>
-        <guid isPermaLink="true">http://kevhou.com/2014/10/13/royals.html</guid>
+        <link>http://kevhou.com/music/2014/10/13/royals.html</link>
+        <guid isPermaLink="true">http://kevhou.com/music/2014/10/13/royals.html</guid>
         
+        
+        <category>music</category>
         
       </item>
     
@@ -26,9 +28,50 @@
         <description>
 </description>
         <pubDate>Sun, 28 Sep 2014 00:00:00 -0400</pubDate>
-        <link>http://kevhou.com/2014/09/28/acknowledge.html</link>
-        <guid isPermaLink="true">http://kevhou.com/2014/09/28/acknowledge.html</guid>
+        <link>http://kevhou.com/music/2014/09/28/acknowledge.html</link>
+        <guid isPermaLink="true">http://kevhou.com/music/2014/09/28/acknowledge.html</guid>
         
+        
+        <category>music</category>
+        
+      </item>
+    
+      <item>
+        <title>Home</title>
+        <description>
+</description>
+        <pubDate>Tue, 01 Jul 2014 00:00:00 -0400</pubDate>
+        <link>http://kevhou.com/music/2014/07/01/home.html</link>
+        <guid isPermaLink="true">http://kevhou.com/music/2014/07/01/home.html</guid>
+        
+        
+        <category>music</category>
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate>Sun, 01 Dec 2013 00:00:00 -0500</pubDate>
+        <link>http://kevhou.com/art/2013/12/01/ps1.html</link>
+        <guid isPermaLink="true">http://kevhou.com/art/2013/12/01/ps1.html</guid>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Nov 2013 00:00:00 -0400</pubDate>
+        <link>http://kevhou.com/art/2013/11/01/ps2.html</link>
+        <guid isPermaLink="true">http://kevhou.com/art/2013/11/01/ps2.html</guid>
+        
+        
+        <category>art</category>
         
       </item>
     
@@ -37,9 +80,11 @@
         <description>
 </description>
         <pubDate>Thu, 17 Oct 2013 00:00:00 -0400</pubDate>
-        <link>http://kevhou.com/2013/10/17/pressure.html</link>
-        <guid isPermaLink="true">http://kevhou.com/2013/10/17/pressure.html</guid>
+        <link>http://kevhou.com/music/2013/10/17/pressure.html</link>
+        <guid isPermaLink="true">http://kevhou.com/music/2013/10/17/pressure.html</guid>
         
+        
+        <category>music</category>
         
       </item>
     
@@ -48,9 +93,24 @@
         <description>
 </description>
         <pubDate>Thu, 03 Oct 2013 00:00:00 -0400</pubDate>
-        <link>http://kevhou.com/2013/10/03/%23-boards.html</link>
-        <guid isPermaLink="true">http://kevhou.com/2013/10/03/%23-boards.html</guid>
+        <link>http://kevhou.com/music/2013/10/03/%23-boards.html</link>
+        <guid isPermaLink="true">http://kevhou.com/music/2013/10/03/%23-boards.html</guid>
         
+        
+        <category>music</category>
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate>Tue, 01 Oct 2013 00:00:00 -0400</pubDate>
+        <link>http://kevhou.com/art/2013/10/01/ps3.html</link>
+        <guid isPermaLink="true">http://kevhou.com/art/2013/10/01/ps3.html</guid>
+        
+        
+        <category>art</category>
         
       </item>
     
@@ -59,20 +119,24 @@
         <description>
 </description>
         <pubDate>Wed, 25 Sep 2013 00:00:00 -0400</pubDate>
-        <link>http://kevhou.com/2013/09/25/new-king.html</link>
-        <guid isPermaLink="true">http://kevhou.com/2013/09/25/new-king.html</guid>
+        <link>http://kevhou.com/music/2013/09/25/new-king.html</link>
+        <guid isPermaLink="true">http://kevhou.com/music/2013/09/25/new-king.html</guid>
         
+        
+        <category>music</category>
         
       </item>
     
       <item>
-        <title>FAME</title>
+        <title></title>
         <description>
 </description>
-        <pubDate>Tue, 27 Aug 2013 00:00:00 -0400</pubDate>
-        <link>http://kevhou.com/2013/08/27/fame.html</link>
-        <guid isPermaLink="true">http://kevhou.com/2013/08/27/fame.html</guid>
+        <pubDate>Sun, 01 Sep 2013 00:00:00 -0400</pubDate>
+        <link>http://kevhou.com/art/2013/09/01/b7.html</link>
+        <guid isPermaLink="true">http://kevhou.com/art/2013/09/01/b7.html</guid>
         
+        
+        <category>art</category>
         
       </item>
     

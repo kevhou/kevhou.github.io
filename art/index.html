@@ -1,5 +1,19 @@
 ---
-layout: page
+layout: default
 title: KH - Art
 menu: art
 ---
+
+<div class="row-fluid">
+    <div class="span6 offset3">
+        <div class="posts">
+            {% for post in site.categories.art %}
+                <div class="post">
+                    <img class="art" src="/image/{{ post.link }}">
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!--<div class="infinite-spinner"></div>-->
