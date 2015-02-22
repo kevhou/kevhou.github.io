@@ -1,7 +1,0 @@
----
-layout: default
-title:  ROYALS
-description: Childish Gambino Type Beat (Ft. Chance The Rapper)
-date:   2014-10-13
-link: https://www.youtube.com/embed/B-GTrnCY50I
----

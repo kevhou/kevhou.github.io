@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  ACKNOWLEDGE
 description: Drake Type Beat (Ft. Lil Wayne & Big Sean)
 date:   2014-09-28
