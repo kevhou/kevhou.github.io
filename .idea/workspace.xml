@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a580c44f-4481-4441-9645-468e91b42677" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/logo-swap/2015-03-11-p11.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/logo-swap/2015-03-12-p12.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -89,13 +91,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-03-10-p10.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2015-03-10-p10.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/logo-swap/2015-03-10-p10.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="53" selection-end="53" vertical-scroll-proportion="0.124087594" vertical-offset="0" max-vertical-offset="548">
+            <state line="7" column="3" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.4074073" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-03-11-p11.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/logo-swap/2015-03-11-p11.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="9" selection-start="63" selection-end="63" vertical-scroll-proportion="-3.148148" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-03-12-p12.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/logo-swap/2015-03-12-p12.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="9" selection-start="63" selection-end="63" vertical-scroll-proportion="0.16190477" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -114,8 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2012-10-01-ps5.md" />
-        <option value="$PROJECT_DIR$/_posts/2012-11-01-ps6.md" />
         <option value="$PROJECT_DIR$/_posts/2012-12-01-ps7.md" />
         <option value="$PROJECT_DIR$/_posts/2012-10-01-r3.md" />
         <option value="$PROJECT_DIR$/_posts/2012-11-01-r2.md" />
@@ -165,6 +189,8 @@
         <option value="$PROJECT_DIR$/_posts/logo-swap/2015-03-09-p8.md" />
         <option value="$PROJECT_DIR$/_posts/logo-swap/2015-03-09-p6.md" />
         <option value="$PROJECT_DIR$/projects/index.html" />
+        <option value="$PROJECT_DIR$/_posts/logo-swap/2015-03-11-p11.md" />
+        <option value="$PROJECT_DIR$/_posts/logo-swap/2015-03-12-p12.md" />
       </list>
     </option>
   </component>
@@ -609,11 +635,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30439442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30439442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31704262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31704262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -669,16 +695,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/images/pages/welcome/logo_welcome.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="457" selection-end="457" vertical-scroll-proportion="0.34363854" vertical-offset="0" max-vertical-offset="1547" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="16" selection-start="3971" selection-end="3978" vertical-scroll-proportion="0.59213483" vertical-offset="2499" max-vertical-offset="131546" />
@@ -1026,7 +1042,27 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="53" selection-end="53" vertical-scroll-proportion="0.124087594" vertical-offset="0" max-vertical-offset="548">
+        <state line="7" column="3" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.4074073" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/logo-swap/2015-03-11-p11.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="63" selection-end="63" vertical-scroll-proportion="-3.148148" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/logo-swap/2015-03-12-p12.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="63" selection-end="63" vertical-scroll-proportion="0.16190477" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
