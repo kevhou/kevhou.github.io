@@ -53,7 +53,7 @@
     <!-- END MOBILE MENU BUTTON -->
 
     <ul id="main-menu" class="nav-collapse collapse">
-        <li id="about"><a href="/about">About</a></li>
+        <!-- <li id="about"><a href="/about">About</a></li> -->
         <li id="project"><a href="/projects">Projects</a></li>
         <li id="art"><a href="/art">Art</a></li>
         <li id="music"><a href="/music">Music</a></li>
@@ -112,7 +112,7 @@
         <!--</li>-->
     <!--</ul>-->
     <div class="videoWrapper">
-        <iframe src="https://www.youtube.com/embed/B-GTrnCY50I?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/B-GTrnCY50I?autoplay=1&loop=1&playlist=B-GTrnCY50I" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 
@@ -124,6 +124,7 @@
     <!--<a href="https://www.soundcloud.com/kidxsoul" target=_blank class="sicon-soundcloud"><i>SoundCloud</i></a>-->
     <!--<a href="https://www.github.com/kevhou" target=_blank class="sicon-github"><i>Github</i></a>-->
 <!--</div>-->
+
                     </div>
                 </div>
             </div>
@@ -184,7 +185,16 @@
             $("li#home").addClass("active")
         })
     </script>
-
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-64650310-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
 
     <!-- <footer class="site-footer">
 </footer>
