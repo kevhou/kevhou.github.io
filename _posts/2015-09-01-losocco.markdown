@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "LOSOCCO | KEVIN HOU"
+name: "LOSOCCO"
+dateRange: "September, 2015"
+img: losocco.png
+href: http://losoc.co/
+description: Hack the North 2015 project. Built with Meteor.js. Mobile shopping app with verified sellers and paypal/bitcoin support. Customers shop from an listing of all local inventories and save shipping cost.
+---
+

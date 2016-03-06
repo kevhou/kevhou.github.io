@@ -1,0 +1,32 @@
+.astro{
+    padding: 16px;
+}
+
+.astro h1{
+    margin: 0;
+    font-size: 1em;
+    padding-bottom: 7px;
+}
+
+.astro h2{
+    margin: 0;
+    font-size: 0.8em;
+    padding-bottom: 7px;
+}
+
+.astro h3{
+    margin: 0;
+    font-size: 0.8em;
+    padding-bottom: 7px;
+    font-weight: normal;
+    color: #676767;
+}
+
+.astro p{
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.astro .row{
+    margin-bottom: 6%;
+}

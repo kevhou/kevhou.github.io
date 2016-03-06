@@ -1,11 +1,18 @@
----
-layout: default
----
-
-<div class="post">
-    <h3>{{ page.title }}</h3>
-    <p>{{ page.description }}</p>
-    <div class="videoWrapper">
-        <iframe src="{{ page.link }}?" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	 <link rel="stylesheet" href="{{ "/css/shohoku.css" }}" type="text/css">
+	<body>
+		{% include border.html %}
+		<div class="main">
+			<div class="shohoku">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>{{ page.name }}</h1>
+						{{ page.content }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
