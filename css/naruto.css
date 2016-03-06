@@ -1,0 +1,30 @@
+.naruto{
+  margin-top: 40px;
+}
+.naruto .left{
+  text-align: right;
+}
+
+.naruto .row{
+    margin-bottom: 8px;
+}
+
+.naruto .contact{
+    margin-top: 50px;
+}
+
+.naruto input{
+  width: 85%;
+  max-width: 200px;
+}
+
+.naruto textarea{
+  width: 85%;
+  max-width: 198px;
+  height: 100px;
+}
+
+.naruto p{
+    margin: 0;
+    font-size: 11px;
+}

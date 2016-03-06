@@ -1,0 +1,157 @@
+@media(max-width:480px){
+	.shohoku h1{
+		margin-top: 0;
+		margin-bottom: 3px;
+		font-size: 1.2em;
+		text-align: center;
+	}
+	.shohoku h2{
+		margin: 0;
+		margin-bottom: 7px;
+		font-size: 0.9em;
+	}
+	.shohoku ul{
+		margin: 0;
+		padding-left: 30px;
+		font-size: 0.9em;
+	}
+	.shohoku #mySelect{
+		padding: 4px;
+		font-size: 0.95em;
+	}
+	.shohoku #buyNow{
+		font-size: 0.95em;
+		width: 150px;
+	}
+}
+@media(min-width: 481px) and (max-width: 570px){
+	.shohoku h1{
+		margin-top: 0;
+		margin-bottom: 3px;
+		font-size: 1.4em;
+		text-align: center;
+	}
+	.shohoku h2{
+		margin: 0;
+		margin-bottom: 7px;
+		font-size: 1em;
+	}
+	.shohoku ul{
+		margin: 0;
+		padding-left: 30px;
+		font-size: 0.95em;
+	}
+	.shohoku #mySelect{
+		padding: 4px;
+		font-size: 1em;
+	}
+	.shohoku #buyNow{
+		font-size: 1em;
+		width: 170px;
+	}
+}
+@media(min-width: 571px) and (max-width:992px){
+	.shohoku h1{
+		margin-top: 0;
+		margin-bottom: 3px;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.shohoku h2{
+		margin: 0;
+		margin-bottom: 7px;
+		font-size: 1em;
+	}
+	.shohoku ul{
+		margin: 0;
+		padding-left: 30px;
+		font-size: 0.95em;
+	}
+	.shohoku #mySelect{
+		padding: 4px;
+		font-size: 1em;
+	}
+	.shohoku #buyNow{
+		font-size: 1em;
+		width: 200px;
+	}
+}
+@media(min-width:993px){
+	.shohoku h1{
+		margin-top: 0;
+		margin-bottom: 3px;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.shohoku h2{
+		margin: 0;
+		margin-bottom: 7px;
+		font-size: 1.2em;
+	}
+	.shohoku ul{
+		margin: 0;
+		padding-left: 30px;
+		font-size: 0.95em;
+	}
+	.shohoku #mySelect{
+		padding: 4px;
+		font-size: 1em;
+	}
+	.shohoku #buyNow{
+		font-size: 1em;
+		width: 222px;
+	}
+}
+
+.shohoku audio{
+	margin-top: 10px;
+}
+
+.shohoku li{
+	margin-bottom: 5px;
+}
+
+.shohoku .terms{
+	padding-left: 30px;
+	font-size: 11px;
+}
+
+.shohoku #specs{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.shohoku #buyNow{
+	padding: 4px;
+	cursor: pointer;
+}
+
+.shohoku .row{
+	padding: 16px;
+}
+
+.shohoku img{
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 64em){
+	.shohoku{
+		padding-left: 17vw;
+	}
+	
+	.shohoku{
+		padding-right: 17vw;
+	}
+	.shohoku h1{
+		margin-top: 0;
+		margin-bottom: 20px;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.shohoku p{
+		margin: 10px 0 10px 0;
+		font-size: 1em;
+	}
+}
+
