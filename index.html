@@ -8,7 +8,7 @@ description: Kevin Hou's personal website.
     {% for post in site.posts %}
         <div class="col-xs-12 col-sm-6 cover">
             <div class="akatsuki">
-                <a target="_blank" href="{% if post.href %}{{ post.href }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+                <a {% if post.href %}target="_blank" href="{{ post.href }}"{% else %}href="{{ post.url | prepend: site.baseurl }}"{% endif %}>
                 	<img class="art" src="/images/{{ post.img }}">
                 </a>
                 <h1>{{ post.name }}</h1>
