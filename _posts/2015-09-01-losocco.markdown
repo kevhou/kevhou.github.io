@@ -1,10 +1,19 @@
 ---
 layout: post
-title:  "LOSOCCO | KEVIN HOU"
+title:  "KEVIN HOU | Losocco"
 name: "LOSOCCO"
 dateRange: "September, 2015"
 img: losocco.png
+permalink: /losocco/
 href: http://devpost.com/software/losocco
 description: Hack the North 2015 project. Built with Meteor.js. Mobile shopping app with verified sellers and paypal/bitcoin support. Customers shop from an listing of all local inventories and save shipping cost.
 ---
 
+<p>Hack the North 2015 project. Built with Meteor.js.</p>
+<p>Mobile shopping app with verified sellers and paypal/bitcoin support. Customers shop from an listing of all local inventories and save shipping cost.</p>
+<p>Devpost: <a href="http://devpost.com/software/losocco">http://devpost.com/software/losocco</a>
+
+<div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
+    <iframe width="560" height="349" src="https://www.youtube.com/embed/a3-RnvmDsZ8" frameborder="0" allowfullscreen></iframe>
+</div>

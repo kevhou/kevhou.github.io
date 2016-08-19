@@ -123,11 +123,12 @@
 
 .shohoku #buyNow{
 	padding: 4px;
-	cursor: pointer;
+	cursor: crosshair;
 }
 
 .shohoku .row{
 	padding: 16px;
+	text-align: center;
 }
 
 .shohoku img{

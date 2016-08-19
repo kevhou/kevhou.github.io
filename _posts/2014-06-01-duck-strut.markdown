@@ -4,7 +4,7 @@ title:  "DUCK STRUT | KEVIN HOU"
 name: "DUCK STRUT"
 dateRange:   "May - August, 2014"
 img: duckstrut.png
-permalink: /projects/duck-strut/
+permalink: /duck-strut/
 description: Built a fully functional lemmings style game using Unity. In charge of programing AI movement, level design and overall UI. Worked closely with Unity using C# and 2D physics engine.
 ---
 

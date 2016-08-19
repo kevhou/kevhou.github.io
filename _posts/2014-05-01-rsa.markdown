@@ -4,7 +4,10 @@ title:  "RSA | KEVIN HOU"
 name: "RSA"
 dateRange: "May, 2014"
 img: rsa.png
+permalink: /rsa/
 href: https://github.com/kevhou/RSA
 description: Designed using C with a simple text based interface. Encrypt and decrypt messages according to the RSA model taught in class.
 ---
 
+<p>Designed using C with a simple text based interface.</p>
+<p>Encrypt and decrypt messages according to the RSA model taught in class.</p>

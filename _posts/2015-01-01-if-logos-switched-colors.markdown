@@ -4,9 +4,13 @@ title:  "IF LOGOS SWITCHED COLORS | KEVIN HOU"
 name: "IF LOGOS SWITCHED COLORS"
 dateRange:   "January, 2015"
 img: ilsc.png
-permalink: /projects/if-logos-switched-colors/
+permalink: /if-logos-switched-colors/
 description: Art experiment to see what popular logos would look like if their colors were swapped. Demonstrates the importance of iconography.
 ---
+
+<p>Art experiment to see what popular logos would look like if their colors were swapped.</p>
+<p>Demonstrates the importance of iconography.</p>
+
 <img src="/images/ilsc/p17.jpg"/>
 <img src="/images/ilsc/p16.jpg"/>
 <img src="/images/ilsc/p15.jpg"/>
