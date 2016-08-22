@@ -1,15 +1,79 @@
 body{
     margin: 0;
-    font-family: 'Helvetica';
-    color: #343434;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection{
+  background: #FFB7B7;
+  color: white;
+}
+
+.menu{
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #343434;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.menu a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+a.highlight-reverse:hover{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+a.highlight-reverse{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a.highlight:hover{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+a.highlight{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
 
 .main{
     margin: 0px;
-    padding-left: calc(4vw + 4vh);
-    padding-right: calc(4vw + 4vh);
-    padding-top: calc(4vw + 4vh);
-    padding-bottom: calc(4vw + 4vh);
+    padding-left: calc(4vw + 3vh);
+    padding-right: calc(4vw + 3vh);
+    padding-top: calc(4vw + 3vh);
+    padding-bottom: calc(4vw + 3vh);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 1224px){
@@ -59,34 +123,6 @@ body{
     opacity: 0.9;
 }
 
-a{
-    text-decoration: none;
-    color: #343434;
-    word-wrap: break-word;
-    cursor: crosshair;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-a.menu{
-  padding-top: 3px;
-  padding-bottom: 2px;
-  padding-left: 6px;
-  padding-right: 4px;
-}
-
-a.menu:hover{
-  text-decoration: none;
-  color: white;
-  background-color: black;
-}
-
-.sideText{
-    letter-spacing: 2px;
-}
-
 .cover{
     padding: 16px;
 }
@@ -94,8 +130,11 @@ a.menu:hover{
 
 .art{
     width: 100%;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19)
+}
+
+.art:hover{
+  box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19)
 }
 
 .blur{
@@ -196,6 +235,8 @@ a.menu:hover{
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .videoWrapper iframe {
   position: absolute;

@@ -9,5 +9,11 @@ href: https://github.com/kevhou/RSA
 description: Designed using C with a simple text based interface. Encrypt and decrypt messages according to the RSA model taught in class.
 ---
 
-<p>Designed using C with a simple text based interface.</p>
-<p>Encrypt and decrypt messages according to the RSA model taught in class.</p>
+<p>Designed using C with a simple text based interface.<br>
+Encrypt and decrypt messages according to the RSA model taught in class.</p>
+<p><a class="highlight-reverse" target="_blank" href="https://github.com/kevhou/RSA">https://github.com/kevhou/RSA</a></p>
+<img src="/images/rsa/1.png"/>
+<img src="/images/rsa/2.png"/>
+<img src="/images/rsa/3.png"/>
+<img src="/images/rsa/4.png"/>
+<img src="/images/rsa/5.png"/>
