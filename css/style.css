@@ -84,7 +84,7 @@ a.highlight{
 }
 
 .back-top{
-    background: white;
+    /*background: white;*/
     width: 100%;
     height: calc(2.5vw + 4vh);
     position: fixed;
@@ -94,7 +94,7 @@ a.highlight{
 }
 
 .back-bottom{
-    background: white;
+    /*background: white;*/
     width: 100%;
     height: calc(2.5vw + 4vh);
     position: fixed;
@@ -104,7 +104,7 @@ a.highlight{
 }
 
 .back-left{
-    background: white;
+    /*background: white;*/
     height: 100%;
     width: calc(2.5vw + 4vh);
     position: fixed;
@@ -114,7 +114,7 @@ a.highlight{
 }
 
 .back-right{
-    background: white;
+    /*background: white;*/
     height: 100%;
     width: calc(2.5vw + 4vh);
     position: fixed;
@@ -130,11 +130,12 @@ a.highlight{
 
 .art{
     width: 100%;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19)
+    /*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19)*/
 }
 
 .art:hover{
-  box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19)
+  /*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);*/
+  /*box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19)*/
 }
 
 .blur{
