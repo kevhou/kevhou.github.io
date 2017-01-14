@@ -1,0 +1,36 @@
+@media(min-width:993px){
+	.designs{
+		padding-left: 17vw;
+	}
+	
+	.designs{
+		padding-right: 17vw;
+	}
+}
+
+.designs .row{
+	padding: 16px;
+	text-align: center;
+}
+
+.designs img{
+	width: 100%;
+}
+
+.designs p{
+	text-align: center;
+	width: 100%;
+}
+
+.designs p.title{
+	text-align: left;
+	margin: 0;
+	font-size: 0.8em;
+	margin-bottom: 30px;
+	font-style: italic;
+}
+
+.designs h1{
+	text-align: center;
+	width: 100%;
+}
