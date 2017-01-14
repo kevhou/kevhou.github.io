@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	 <link rel="stylesheet" href="{{ "/css/shohoku.css" }}" type="text/css">
+	 <link rel="stylesheet" href="{{ "/css/post.css" }}" type="text/css">
 	<body>
 		{% include border.html %}
-		<div class="main">
-			<div class="shohoku">
-				<div class="row">
-					<div class="col-xs-12">
-						<h1>{{ page.name }}</h1>
-						{{ page.content }}
-						<p>{{page.dateRange}}</p>
-					</div>
+		<div class="main post">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>{{ page.name }}</h1>
+					{{ page.content }}
+					<p>{{page.dateRange}}</p>
 				</div>
 			</div>
 		</div>

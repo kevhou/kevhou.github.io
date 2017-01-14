@@ -13,7 +13,7 @@ description: Hack the North 2015 project. Built with Meteor.js. Mobile shopping 
 Mobile shopping app with verified sellers and paypal/bitcoin support.<br>
 Customers shop from an listing of all local inventories and save shipping cost.<br>
 Built with Meteor.js.</p>
-<p><a class="highlight-reverse" href="http://devpost.com/software/losocco">http://devpost.com/software/losocco</a>
+<p><a class="highlight-reverse" target="_blank" href="http://devpost.com/software/losocco">http://devpost.com/software/losocco</a>
 
 <div class="videoWrapper">
     <!-- Copy & Pasted from YouTube -->

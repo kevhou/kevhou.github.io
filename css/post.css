@@ -1,71 +1,71 @@
 @media(max-width:480px){
-	.shohoku h1{
+	.post h1{
 		margin-top: 0;
 		margin-bottom: 18px;
 		font-size: 1.2em;
 		text-align: center;
 	}
-	.shohoku h2{
+	.post h2{
 		margin: 0;
 		margin-bottom: 7px;
 		font-size: 0.9em;
 	}
-	.shohoku p{
+	.post p{
 		margin: 14px;
 		line-height: 22px;
 		font-size: 0.8em;
 	}
 }
 @media(min-width: 481px) and (max-width: 992px){
-	.shohoku h1{
+	.post h1{
 		margin-top: 0;
 		margin-bottom: 18px;
 		font-size: 1.4em;
 		text-align: center;
 	}
-	.shohoku h2{
+	.post h2{
 		margin: 0;
 		margin-bottom: 7px;
 		font-size: 1em;
 	}
-	.shohoku p{
+	.post p{
 		margin: 14px;
 		line-height: 22px;
 		font-size: 0.9em;
 	}
 }
 @media(min-width:993px){
-	.shohoku h1{
+	.post h1{
 		margin-top: 0;
 		margin-bottom: 18px;
 		font-size: 1.5em;
 		text-align: center;
 	}
-	.shohoku h2{
+	.post h2{
 		margin: 0;
 		margin-bottom: 7px;
 		font-size: 1.2em;
 	}
-	.shohoku p{
+	.post p{
 		margin: 14px;
 		line-height: 22px;
 		font-size: 0.9em;
 	}
-	.shohoku{
+	.post{
 		padding-left: 17vw;
 	}
 	
-	.shohoku{
+	.post{
 		padding-right: 17vw;
 	}
 }
 
-.shohoku .row{
+.post .row{
 	padding: 16px;
 	text-align: center;
 }
 
-.shohoku img{
+.post img{
 	width: 100%;
 	margin-bottom: 40px;
 }

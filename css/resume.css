@@ -1,31 +1,31 @@
-.naruto{
+.resume{
   margin-top: 40px;
-  text-align: center;
+  word-wrap: break-word;
 }
-.naruto .left{
+.resume .left{
   text-align: right;
 }
 
-.naruto .row{
+.resume .row{
     margin-bottom: 8px;
 }
 
-.naruto .contact{
+.resume .contact{
     margin-top: 50px;
 }
 
-.naruto input{
+.resume input{
   width: 85%;
   max-width: 200px;
 }
 
-.naruto textarea{
+.resume textarea{
   width: 85%;
   max-width: 198px;
   height: 100px;
 }
 
-.naruto p{
+.resume p{
     margin: 0;
     font-size: 11px;
 }

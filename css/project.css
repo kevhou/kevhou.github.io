@@ -1,21 +1,21 @@
-.akatsuki{
+.project{
   position: relative;
 }
 
-.akatsuki h1{
+.project h1{
   margin-top: 10px;
   margin-bottom: 0px;
   font-size: 1.35em;
 }
 
-.akatsuki h2{
+.project h2{
   margin-top: 5px;
   margin-bottom: 8px;
   font-size: 0.8em;
   color: #bbbbbb;
 }
 
-.akatsuki p{
+.project p{
   margin: 0;
   font-size: 0.9em;
   word-spacing: 2px;
