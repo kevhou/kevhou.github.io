@@ -6,26 +6,36 @@
   text-align: right;
 }
 
-.resume .row{
-    margin-bottom: 8px;
-}
-
-.resume .contact{
-    margin-top: 50px;
-}
-
-.resume input{
-  width: 85%;
-  max-width: 200px;
-}
-
-.resume textarea{
-  width: 85%;
-  max-width: 198px;
-  height: 100px;
+.resume .block{
+  margin-bottom: 10px;
 }
 
 .resume p{
-    margin: 0;
-    font-size: 11px;
+  /*margin: 0;*/
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  padding-left: 5px;
+}
+
+.resume .title{
+  font-size: smaller;
+  margin-bottom: 5px;
+}
+
+.resume h1{
+  font-size: 1.4em;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.resume h2{
+  font-size: 1.2em;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.resume a{
+  display: block;
+  font-size: 0.9em;
 }
