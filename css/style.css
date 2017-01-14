@@ -11,6 +11,12 @@ small{
   font-size: 0.85em; 
 }
 
+p{
+  margin: 14px 0 14px 0;
+  line-height: 22px;
+  font-size: 0.9em;
+}
+
 ::selection{
   background: #FFB7B7;
   color: white;
@@ -261,11 +267,6 @@ a.highlight{
     margin-bottom: 7px;
     font-size: 0.9em;
   }
-  p{
-    margin: 14px 0 14px 0;
-    line-height: 22px;
-    font-size: 0.8em;
-  }
 }
 @media(min-width: 481px) and (max-width: 992px){
   h1{
@@ -277,11 +278,6 @@ a.highlight{
     margin-bottom: 7px;
     font-size: 1em;
   }
-  p{
-    margin: 14px 0 14px 0;
-    line-height: 22px;
-    font-size: 0.9em;
-  }
 }
 @media(min-width:993px){
   h1{
@@ -292,10 +288,5 @@ a.highlight{
     margin: 0;
     margin-bottom: 7px;
     font-size: 1.2em;
-  }
-  p{
-    margin: 14px 0 14px 0;
-    line-height: 22px;
-    font-size: 0.9em;
   }
 }
