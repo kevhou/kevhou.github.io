@@ -18,3 +18,5 @@ Main focus on hiphop type instrumentals. Currently with over 120k listens on Sou
 <img src="/images/kidsoulbeats/3.png"/>
 <img src="/images/kidsoulbeats/4.png"/>
 <img src="/images/kidsoulbeats/5.png"/>
+<img src="/images/kidsoulbeats/6.png"/>
+<img src="/images/kidsoulbeats/7.png"/>
