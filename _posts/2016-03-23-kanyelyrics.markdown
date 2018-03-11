@@ -5,7 +5,7 @@ name: "KANYE LYRICS"
 dateRange: "March, 2016"
 img: kanyelyrics.png
 permalink: /kanyelyricsinfo/
-href: http://kevhou.com/kanyelyrics
+href: http://kevhou.com/kanyelyricsinfo
 description: "Randomly browse through Kanye West's lyrics.\nMade with ReactJs and Firebase."
 ---
 
